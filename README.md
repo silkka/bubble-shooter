@@ -1,6 +1,13 @@
 # Bubble Shooter with Phaser.io
 #### A project to create games with Phaser + ES6 + Webpack.
 
+# Way of working
+
+## 1. You should create new branch from develop branch
+## 2. After pushing code to github, you should ask for code review
+## 3. In order to build for production, we only merge from develop banch to master bnrahc
+## 4. Only pushing to production from master branch
+
 # Setup
 To use this bootstrap you’ll need to install a few things before you have a working copy of the project.
 
