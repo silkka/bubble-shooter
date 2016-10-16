@@ -9,7 +9,7 @@ export default class extends Phaser.Sprite {
     this.anchor.setTo(0.5)
     this.shot = false;
     this.game.physics.arcade.enable(this);
-   
+    this.body.setCircle(16,16,16);
     //Maybe something more intelligent needed with these values, for example when we have a grid object we can give it or something.
     this.rightBound = rightBound;
     this.leftBound = leftBound;
